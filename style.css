@@ -22,10 +22,9 @@ body {
   background: url("img/soccer-field-spotlight-background-stadium_46250-1363.jpg")
     no-repeat;
   background-size: cover;
-  height: 100%;
-  overflow: hidden;
 }
-.container {
+
+#container {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 10px;
   border-radius: 5px;
@@ -60,13 +59,16 @@ h1 {
   width: 7%;
   height: 7%;
 }
+#img6 {
+  width: 20%;
+}
 
-#play_stop {
+/* #play_stop {
   display: none;
 }
 .display-anim {
-  height: 70px;
-  margin: 5px 0;
+  height: 1;
+  margin: 5px;
   background: url("https://tse4.mm.bing.net/th?id=OIP.x2-GwQkCV9xJbIpsbT9iIgAAAA&pid=Api&P=0&w=300&h=300")
     no-repeat left center;
   -webkit-animation: test 3s infinite;
@@ -83,4 +85,4 @@ h1 {
   50% {
     background-position: right center;
   }
-}
+} */
